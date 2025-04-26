@@ -1,0 +1,166 @@
+2025-04-08 20:01:20,223 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:01:20,300 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:01:20,300 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:01:20,337 - INFO - Found 2 documents in books
+2025-04-08 20:01:20,339 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:01:20,347 - ERROR - Error inserting data into book: column "book_id" of relation "book" does not exist
+LINE 1: INSERT INTO book (book_id, book_name, book_category, book_au...
+                          ^
+
+2025-04-08 20:01:20,347 - ERROR - Migration failed: column "book_id" of relation "book" does not exist
+LINE 1: INSERT INTO book (book_id, book_name, book_category, book_au...
+                          ^
+
+2025-04-08 20:01:20,349 - INFO - Database connections closed
+2025-04-08 20:03:33,788 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:03:33,885 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:03:33,885 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:03:33,907 - INFO - Found 2 documents in books
+2025-04-08 20:03:33,909 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:03:33,912 - ERROR - Error inserting data into book: column "book_name" of relation "book" does not exist
+LINE 1: INSERT INTO book (book_id, book_name, book_category, book_au...
+                                   ^
+
+2025-04-08 20:03:33,913 - ERROR - Migration failed: column "book_name" of relation "book" does not exist
+LINE 1: INSERT INTO book (book_id, book_name, book_category, book_au...
+                                   ^
+
+2025-04-08 20:03:33,915 - INFO - Database connections closed
+2025-04-08 20:04:11,277 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:04:11,352 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:04:11,353 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:04:11,357 - INFO - Found 2 documents in books
+2025-04-08 20:04:11,359 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:04:11,361 - ERROR - Error inserting data into book: column "book_category" of relation "book" does not exist
+LINE 1: INSERT INTO book (book_id, book_name, book_category, book_au...
+                                              ^
+
+2025-04-08 20:04:11,361 - ERROR - Migration failed: column "book_category" of relation "book" does not exist
+LINE 1: INSERT INTO book (book_id, book_name, book_category, book_au...
+                                              ^
+
+2025-04-08 20:04:11,362 - INFO - Database connections closed
+2025-04-08 20:04:54,937 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:04:55,022 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:04:55,022 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:04:55,026 - INFO - Found 2 documents in books
+2025-04-08 20:04:55,027 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:04:55,029 - ERROR - Error inserting data into book: column "book_authors" of relation "book" does not exist
+LINE 1: ...ERT INTO book (book_id, book_name, book_category, book_autho...
+                                                             ^
+
+2025-04-08 20:04:55,029 - ERROR - Migration failed: column "book_authors" of relation "book" does not exist
+LINE 1: ...ERT INTO book (book_id, book_name, book_category, book_autho...
+                                                             ^
+
+2025-04-08 20:04:55,031 - INFO - Database connections closed
+2025-04-08 20:05:43,920 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:05:44,024 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:05:44,025 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:05:44,029 - INFO - Found 2 documents in books
+2025-04-08 20:05:44,030 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:05:44,032 - ERROR - Error inserting data into book: column "isbn_number" of relation "book" does not exist
+LINE 1: ...(book_id, book_name, book_category, book_authors, isbn_numbe...
+                                                             ^
+
+2025-04-08 20:05:44,033 - ERROR - Migration failed: column "isbn_number" of relation "book" does not exist
+LINE 1: ...(book_id, book_name, book_category, book_authors, isbn_numbe...
+                                                             ^
+
+2025-04-08 20:05:44,034 - INFO - Database connections closed
+2025-04-08 20:06:15,658 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:06:15,752 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:06:15,753 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:06:15,757 - INFO - Found 2 documents in books
+2025-04-08 20:06:15,759 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:06:15,761 - ERROR - Error inserting data into book: column "edition_number" of relation "book" does not exist
+LINE 1: ...k_name, book_category, book_authors, isbn_number, edition_nu...
+                                                             ^
+
+2025-04-08 20:06:15,761 - ERROR - Migration failed: column "edition_number" of relation "book" does not exist
+LINE 1: ...k_name, book_category, book_authors, isbn_number, edition_nu...
+                                                             ^
+
+2025-04-08 20:06:15,762 - INFO - Database connections closed
+2025-04-08 20:06:38,065 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:06:38,163 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:06:38,163 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:06:38,167 - INFO - Found 2 documents in books
+2025-04-08 20:06:38,169 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:06:38,171 - ERROR - Error inserting data into book: column "year_of_publication" of relation "book" does not exist
+LINE 1: ...egory, book_authors, isbn_number, edition_number, year_of_pu...
+                                                             ^
+
+2025-04-08 20:06:38,172 - ERROR - Migration failed: column "year_of_publication" of relation "book" does not exist
+LINE 1: ...egory, book_authors, isbn_number, edition_number, year_of_pu...
+                                                             ^
+
+2025-04-08 20:06:38,173 - INFO - Database connections closed
+2025-04-08 20:07:10,027 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:07:10,106 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:07:10,106 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:07:10,110 - INFO - Found 2 documents in books
+2025-04-08 20:07:10,112 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:07:10,122 - ERROR - Error inserting data into book: invalid input syntax for type integer: "B002"
+LINE 1: ...ber, edition_number, year_of_publication) VALUES ('B002', 'F...
+                                                             ^
+
+2025-04-08 20:07:10,124 - ERROR - Migration failed: invalid input syntax for type integer: "B002"
+LINE 1: ...ber, edition_number, year_of_publication) VALUES ('B002', 'F...
+                                                             ^
+
+2025-04-08 20:07:10,126 - INFO - Database connections closed
+2025-04-08 20:11:30,063 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:11:30,146 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:11:30,147 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:11:30,151 - INFO - Found 2 documents in books
+2025-04-08 20:11:30,153 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:11:30,155 - ERROR - Error inserting data into book: invalid input syntax for type integer: "978-0132350889"
+LINE 1: ... Stack', 'Programming', ARRAY['Sudarshan Gopal'], '978-01323...
+                                                             ^
+
+2025-04-08 20:11:30,155 - ERROR - Migration failed: invalid input syntax for type integer: "978-0132350889"
+LINE 1: ... Stack', 'Programming', ARRAY['Sudarshan Gopal'], '978-01323...
+                                                             ^
+
+2025-04-08 20:11:30,157 - INFO - Database connections closed
+2025-04-08 20:12:27,216 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:12:27,298 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:12:27,298 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:12:27,302 - INFO - Found 2 documents in books
+2025-04-08 20:12:27,304 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:12:27,315 - ERROR - Error inserting data into book: value too long for type character varying(15)
+
+2025-04-08 20:12:27,315 - ERROR - Migration failed: value too long for type character varying(15)
+
+2025-04-08 20:12:27,317 - INFO - Database connections closed
+2025-04-08 20:13:51,789 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:13:51,902 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:13:51,902 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:13:51,906 - INFO - Found 2 documents in books
+2025-04-08 20:13:51,908 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:13:51,917 - INFO - Inserted 2 records into table book
+2025-04-08 20:13:51,917 - ERROR - Migration failed: cannot set options after executing query
+2025-04-08 20:13:51,919 - INFO - Database connections closed
+2025-04-08 20:17:56,165 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:17:56,252 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:17:56,266 - ERROR - Error verifying PostgreSQL table: 0
+2025-04-08 20:17:56,267 - ERROR - PostgreSQL table book verification failed. Migration aborted.
+2025-04-08 20:17:56,269 - INFO - Database connections closed
+2025-04-08 20:19:54,253 - INFO - Connected to MongoDB database: crud
+2025-04-08 20:19:54,337 - INFO - Connected to PostgreSQL database: book_store
+2025-04-08 20:19:54,374 - INFO - Table book exists with columns: id, book_id, book_name, book_category, book_authors, isbn_number, edition_number, year_of_publication
+2025-04-08 20:19:54,374 - INFO - Starting migration from MongoDB (books) to PostgreSQL (book)
+2025-04-08 20:19:54,377 - INFO - Valid PostgreSQL columns: book_authors, book_id, isbn_number, book_name, year_of_publication, edition_number, book_category, id
+2025-04-08 20:19:54,379 - INFO - Found 2 documents in books
+2025-04-08 20:19:54,381 - INFO - Processing 2 documents. Progress: 2/2
+2025-04-08 20:19:54,383 - ERROR - Error inserting data into book: malformed array literal: "Sudarshan Gopal"
+LINE 1: ...ear_of_publication) VALUES ('B002', 'Full Stack', 'Sudarshan...
+                                                             ^
+DETAIL:  Array value must start with "{" or dimension information.
+
+2025-04-08 20:19:54,384 - ERROR - Sample data that failed: [('book_id', 'B002'), ('book_name', 'Full Stack'), ('book_authors', 'Sudarshan Gopal'), ('isbn_number', '978-0132350889'), ('book_category', 'Programming'), ('edition_number', 2), ('year_of_publication', 2025)]
+2025-04-08 20:19:54,385 - INFO - Migration completed in 0.16 seconds
+2025-04-08 20:19:54,386 - INFO - Total records migrated: 0
+2025-04-08 20:19:54,395 - INFO - Validation: MongoDB has 2 records, PostgreSQL has 2 records
+2025-04-08 20:19:54,424 - INFO - Database connections closed
