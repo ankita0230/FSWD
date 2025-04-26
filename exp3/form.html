@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #outer {
+            width: fit-content;
+            padding: 2rem 3rem;
+            margin: 8rem auto;
+            background-image: linear-gradient(blueviolet,violet);
+            border-radius: 10px;
+            color: white;
+        }
+        input, select {
+            background-color: rgba(238, 130, 238, 0.505);
+            color: white;
+            font-weight: 700;
+            border-radius: 20px;
+            padding: 0.25rem 0.75rem;
+            border-color: aliceblue;
+            border-width: 2px;
+            border-style: solid;
+            text-align: center;
+        }
+        p {
+            color: yellow;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <h1>Welcome! Create your account today!</h1>
+        <form action="#">
+            <label for="username"><b>Username: </b></label>
+            <input type="text" name="username" id="username" required> 
+            <p id="namefb"></p>
+    
+            <label for="email"><b>Email: </b></label>
+            <input type="email" name="email" id="email" required>
+            <p id="emailfb"></p>
+          
+            <label for="password"><b>Password: </b></label>
+            <input type="password" name="password" id="password" required> 
+            <p id="passwordfb"></p>
+         
+            <label for="confirmPassword"><b>Confirm Password: </b></label>
+            <input type="password" name="confirmPassword" id="confirmPassword" required>
+            <p id="confirmPasswordfb"></p>
+        
+            <label for="age"><b>Age: </b></label>
+            <input type="number" name="age" id="age" required> 
+            <p id="agefb"></p>
+        
+            <label for="country"><b>Country: </b></label>
+            <select name="county" id="country">
+                <option value="default" selected>Select a Country</option>
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+                <option value="Australia">Australia</option>
+                <option value="Japan">Japan</option>
+                <option value="France">France</option>
+            </select>
+            <p id="countryfb"></p>
+    
+            <div style="text-align: center;"><input type="submit" id="submit" value="Submit"></div>
+        </form>
+    </div>
+    <script src="./form.js"></script>
+</body>
+</html>
