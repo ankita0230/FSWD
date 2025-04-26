@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      form {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      input {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+      }
+      .error {
+        color: red;
+        font-size: 14px;
+      }
+    </style>
+    <script src="form.js" defer></script>
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+    <form id="registration-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <div class="error" id="name-error"></div>
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+      <div class="error" id="username-error"></div>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <div class="error" id="email-error"></div>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <div class="error" id="password-error"></div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

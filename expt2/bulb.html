@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="bulb.js" defer></script>
+    <title>Bulb</title>
+    <style>
+      #container {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        color: white;
+      }
+      button {
+        margin: 20px 0;
+        padding: 10px 20px;
+        font-size: 30px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+      }
+      #on-button {
+        background-color: green;
+      }
+      #off-button {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <img id="bulb" src="/assets/lightbulb-off.png" alt="Bulb" width="400px" />
+      <div class="button-container">
+        <button id="on-button">On</button>
+        <button id="off-button">Off</button>
+      </div>
+    </div>
+  </body>
+</html>
